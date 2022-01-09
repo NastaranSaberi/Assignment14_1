@@ -1,0 +1,40 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="author" content="Nastaran Saberi">
+    <meta name="description" content="Metronome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Metronome</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="info_bpm">
+            <span id="number_bpm">150</span>
+            <span id="bpm">BPM</span>
+        </div>
+
+        <div class="metronome">
+            <button id="btn_m" type="button" >-</button>
+            <input type="range" id="input_range" value="150" min="20" max="280" step="1">
+            <button id="btn_p" type="button">+</button>
+            <div></div>
+        </div>
+
+        <div id="start" onclick="play()">PLAY</div>
+      
+       
+
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
